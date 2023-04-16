@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lønnsskjema </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../navbar/navbar.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="lonnsskjema.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+           <a href="../index.html">
+               <img src="../ressurser/ØHIL-logo.webp" alt="ØHIL-Logo">
+           </a>
+   
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav">
+          <a href="../lønnsskjema/lonnsskjema.html" class="undersider">Lønnsskjema </a>
+          <a href="../treningsprogram/treningsprogram.html" class="undersider">Treningsprogram</a>
+          <a href="../makkerpar/makkerpar.html" class="undersider">Makkerpar</a>
+        </div>
+    </div>
+    <h1>Lønnsskjema</h1>
+    <hr width="400" size="10">
+    <form>
+        <h2>INFO</h2>
+        <label>
+            Navn: 
+            <input id="navn" type="text" value="Emma Evensen">
+        </label>
+        <label>Gruppe/lag: 
+        <input id="gruppe" type="text" value="J2010">
+        </label>
+        <label>Måned: 
+        <input type="month">
+        </label>
+        <label>Konto nr: 
+        <input type="number" id="kontoNr">
+        </label>
+        <h2>LØNNSOVERSIKT</h2>
+        <label id="grunnlonnTreningTekst">Grunnlønn per treningstime: 
+        <input type="number" id="grunnlonnTrening" value="175">
+        </label>
+        <label>Lønn per kamp:
+        <input type="number" id="lonnKamp" value="250">
+        </label>
+        <label>Antall treningstimer:
+        <input type="number" id="treningstimer">
+        </label>
+        <label>Antall kamper: 
+        <input type="number" id="kamper">
+        </label>
+        <button type="submit" id="skrivUt">Skriv ut</button>
+    </form>
+    <div ></div>
+
+    <div class="footer">
+        <div class="col-1">
+            <h3 class="h3Footer">KILDER:</h3>
+            <a href="https://www.w3schools.com/css/css_font.asp">Ulike fonter</a>
+            <a href="https://imagecolorpicker.com/">Fargepalett</a>
+            <a href="https://i0.wp.com/ohil.no/wp-content/uploads/2015/09/headerohil.jpg?fit=768%2C135&ssl=1">ØHIL-logo bilde</a>
+            <a href="https://fontawesome.com/search">Font-awesome ikoner </a>
+            <a href="#">Tidligere prosjekter</a>
+        </div>
+        <div class="col-2">
+            <h3 class="h3Footer">INSPIRASJON:</h3>
+            <a href="https://www.youtube.com/watch?v=KaKOtnF4I4A">Tutorial - Choice picker</a>
+            <a href="https://github.com/Didrik147/didrik147.github.io/tree/main/group_maker">Didriks kode - group maker</a>
+            <a href="https://www.youtube.com/watch?v=lLdzlLL33G8">Footer</a>
+            <a href="https://ohil.no/">ØHIL sin hjemmeside</a>
+        </div>
+        <div class="col-3">
+            <h3 class="h3Footer">KONTAKT:</h3>
+            <p>Gjønnesjordet 30, 1357 Bekkestua <br>e-post: emmaeven@viken.no</p>
+            <div class="sosialemedier-ikoner">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-snapchat"></i>
+            </div>
+            
+        </div>
+   </div>
+
+   
+    <script src="lonnsskjema.js"></script>
+    <script src="../navbar/hamburger.js"></script>
+</body>
+</html>

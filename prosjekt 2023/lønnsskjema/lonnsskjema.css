@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(129,176,46);
+    border: 2px solid rgb(129,176,46);
+    border-radius: 10px;
+    width: 95%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 5px;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    color: rgb(32,61,78);
+    
+}
+
+label {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    color: white;
+    
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p > b {
+    color: rgb(32,61,78);
+}
+
+#skrivUt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(32,61,78);
+    border-radius: 5px;
+    background-color:  rgb(228, 227, 227);
+
+    
+}
+
+input {
+    color: rgb(32,61,78);
+    border: none;
+}
+
+#husk {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 40px 0 5px;
+    
+}
+
+#melding {
+    margin: 0 20px 20px;
+}
+
+
+hr {
+    background-color: rgb(32,61,78);
+}
+
+@media(max-width: 425px){
+    #grunnlonnTreningTekst {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #grunnlonnTrening {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+        
+    }
+
+}
+
+/* 
+form.utskrevet {
+    background-color: aqua;
+}
+
+ */
+    
